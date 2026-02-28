@@ -1,0 +1,28 @@
+{
+  "name": "ticketing-system-frontend",
+  "version": "1.0.0",
+  "description": "Ticketing System Frontend",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "lint": "eslint --ext .js,.vue src",
+    "format": "prettier --write \"src/**/*.{js,vue,json,css,scss}\""
+  },
+  "dependencies": {
+    "quasar": "^2.12.0",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "pinia": "^2.1.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.3.0",
+    "@quasar/extras": "^2.12.0",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.0",
+    "@vue/test-utils": "^2.4.1",
+    "vitest": "^0.34.0"
+  }
+}
